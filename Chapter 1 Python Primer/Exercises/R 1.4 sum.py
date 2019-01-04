@@ -4,9 +4,10 @@
 
 def sumOfSeq(n):
     total = 0
+    # totalsum = sum(j*j for j in range(1, n+1))    # built in sum function
     for v in range(1, n+1):
         total += v*v
-        print(total)
+        # print(total)
     return total
 
 
